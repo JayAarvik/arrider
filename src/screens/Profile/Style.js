@@ -79,11 +79,22 @@ const Style = StyleSheet.create({
    },
    textInputStyle:{
     borderBottomWidth:1,
-    paddingBottom:2,
+    paddingBottom:1,
+    paddingTop:2,
     borderBottomColor:"#DCDCDC"
    },
    backIconStyle:{
     padding:10
+   },
+   updateButtonStyle:{
+      backgroundColor:BGR,
+      borderRadius:10,
+      flexDirection:"row",
+      alignItems:"center",
+      padding:15,
+      justifyContent:"center",
+      marginTop:10,
+      marginBottom:20
    }
 })
 

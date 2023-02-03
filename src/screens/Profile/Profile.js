@@ -45,6 +45,14 @@ export default function Profile({navigation}) {
                     <Txt c="ttl" w="400" s={16}>Address</Txt>
                     <Txt w="500">House no 7890, Phase 5, Mohali, Punjab, India.</Txt>
                 </View>
+                <View style={Style.textInnerStyle}>
+                    <Txt c="ttl" w="400" s={16}>Adhar Card No.</Txt>
+                    <Txt w="500">9875 9875 9875</Txt>
+                </View>
+                <View style={Style.textInnerStyle}>
+                    <Txt c="ttl" w="400" s={16}>PAN Card No.</Txt>
+                    <Txt w="500">H420KWOLN097</Txt>
+                </View>
             </View>
             <TouchableOpacity style={Style.editProfileStyle} onPress={() => EditProfileBtn()}>  
                 <MaterialCommunityIcons size={25} color={BGR} name="account-edit-outline" />

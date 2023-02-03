@@ -69,8 +69,20 @@ export default function EditProfile({navigation}) {
                     placeholder='Address' 
                     style={Style.textInputStyle} />
             </View>
+            <View style={Style.textInnerStyle}>
+                <Txt c="ttl" w="400" s={16}>Adhar card no.</Txt>
+                <TextInput 
+                    placeholder='Adhar card' 
+                    style={Style.textInputStyle} />
+            </View>
+            <View style={Style.textInnerStyle}>
+                <Txt c="ttl" w="400" s={16}>PAN card no.</Txt>
+                <TextInput 
+                    placeholder='PAN card no.' 
+                    style={Style.textInputStyle} />
+            </View>
         </View>
-        <TouchableOpacity style={Style.checkCartStyle}>  
+        <TouchableOpacity style={Style.updateButtonStyle}>  
             <MaterialCommunityIcons size={25} color="#fff" name="check" />
             <Txt c="w" w="500" s={18} ml={5}>Update Profile</Txt>
         </TouchableOpacity>
