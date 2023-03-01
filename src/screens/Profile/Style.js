@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet, Platform } from "react-native"
 import { BGC, BGR, BGRDRK, BLUE } from "../../Utils/Import";
 
 const Style = StyleSheet.create({
@@ -6,6 +6,7 @@ const Style = StyleSheet.create({
     backgroundColor:"#fff"
    },
    backgroundEdit:{
+      paddingTop : Platform.OS == "ios" ? 50 : null,
       backgroundColor:"#fff",
       flex:1
      },
@@ -15,6 +16,7 @@ const Style = StyleSheet.create({
     resizeMode:"cover"
    },
    contentView:{
+      paddingTop : Platform.OS == "ios" ? 50 : null,
     padding:20
    },
    contentViewEdit:{

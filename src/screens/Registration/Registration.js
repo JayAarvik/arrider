@@ -32,7 +32,7 @@ export default function Register({ navigation }) {
                 <View style={Style.emailView}>  
                     <MaterialCommunityIcons size={20} color="gray" name="email-outline" />
                     <TextInput
-                        placeholder='Enter your email'
+                        placeholder=' Enter your email'
                         style={Style.textInputStyle}
                     />
                 </View>

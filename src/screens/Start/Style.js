@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet, Platform } from "react-native"
 import { BGC } from "../../Utils/Import";
 
 const Style = StyleSheet.create({
@@ -12,6 +12,7 @@ const Style = StyleSheet.create({
     resizeMode:"cover"
    },
    contentView:{
+      paddingTop : Platform.OS == "ios" ? 50 : null,
     padding:20,
     height:"100%"
    },

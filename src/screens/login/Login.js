@@ -33,7 +33,7 @@ export default function Login({ navigation }) {
                 <View style={Style.emailView}>  
                     <MaterialCommunityIcons size={20} color="gray" name="email-outline" />
                     <TextInput
-                        placeholder='Enter your login id'
+                        placeholder=' Enter your login id'
                         style={Style.textInputStyle}
                     />
                 </View>
@@ -41,7 +41,7 @@ export default function Login({ navigation }) {
                 <View style={Style.emailView}>  
                     <MaterialCommunityIcons size={20} color="gray" name="key-outline" />
                     <TextInput
-                        placeholder='Enter password'
+                        placeholder=' Enter password'
                         style={Style.textInputStyle}
                     />
                 </View>

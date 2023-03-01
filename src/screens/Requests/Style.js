@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet, Platform } from "react-native"
 import { BGC, BGI, BGR, BGRDRK, Redd } from "../../Utils/Import";
 
 const Style = StyleSheet.create({
@@ -16,6 +16,7 @@ const Style = StyleSheet.create({
     height:"100%"
    },
    titleViewStyle:{
+    paddingTop : Platform.OS == "ios" ? 50 : null,
     backgroundColor:BGR,
     padding:10,
     borderBottomLeftRadius:30,

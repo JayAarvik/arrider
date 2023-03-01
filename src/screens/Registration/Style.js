@@ -1,8 +1,9 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet, Platform } from "react-native"
 import { LGR } from "../../Utils/Import";
 
 const Style = StyleSheet.create({
    background:{
+      paddingTop : Platform.OS == "ios" ? 50 : null,
     flex:1,
     backgroundColor:"#fff"
    },

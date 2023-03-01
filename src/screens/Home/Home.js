@@ -54,7 +54,7 @@ export default function Home({ navigation }) {
             <View style={Style.statusView}>
                 <Txt s={18} c="bgrdrk" w="600">Status</Txt>
                 <View style={Style.switchViewStyle}>
-                    <Txt c={isEnabled ? "bgrdrk" : "rd"}>{isEnabled ? "Online" : "Offline"}</Txt>
+                    <Txt c={isEnabled ? "bgrdrk" : "rd"}>{isEnabled ? "Online " : "Offline "}</Txt>
                     <Switch
                         trackColor={{ false: '#767577', true: "#767577" }}
                         thumbColor={isEnabled ? BGRDRK : BGC}
